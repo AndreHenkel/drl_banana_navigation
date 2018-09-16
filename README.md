@@ -17,9 +17,16 @@ $ python train.py
 # Environment
 
 Unity's Banana Environment.
-The state space is 37 in which the agent sees a ray perception of it's environment in fron of him.
-The action space is 4, for the movements: 'forward', 'left', 'right', 'backwards'
-The environment is considered solved after 100 consecutive episodes with an average score over +15.
+
+A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.
+The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
+
+    0 - move forward.
+    1 - move backward.
+    2 - turn left.
+    3 - turn right.
+
+The task is episodic, and the agent solvedthe environment, after getting an average score of +15 over 100 consecutive episodes.
 
 
 # Architecture

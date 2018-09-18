@@ -2,7 +2,9 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-
+"""
+Inspiration for the dueling network was taken from dxyang. Github page: https://github.com/dxyang/DQN_pytorch/blob/master/model.py
+"""
 class QNetwork(nn.Module):
     """ QNetwork which implements the Dueling Architecture.
         The Dueling Architecture is a double stream FeedForward Neural Network, 

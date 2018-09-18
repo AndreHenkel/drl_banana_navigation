@@ -1,9 +1,19 @@
 # Overview
 
 Part of the Deep Reinforcement Learning Nano Degree(drlnd) from Udacity.
+In this project you needed to train an Agent to collect yellow bananas in an Unity Environment whilst avoiding blue bananas.
+The agent sees an 37 dimensional state and an action space of 4.
 
-# Installation
+# Setup
 
+To start, you need Python 3.6, PyTorch, Numpy, Matplotlib, and the Unity ML-Agents Toolkit.
+
+With Anaconda or virtualenv you can create your python environment like:
+conda create -n drlnd python=3.6 pytorch matplotlib
+
+For the Unity ML-Agent you need to download the Toolkit (https://github.com/Unity-Technologies/ml-agents) go to the ml-agents/python directory and install it via:
+
+pip install ml-agents/python
 
 # Instructions
 

@@ -4,6 +4,8 @@ Part of the Deep Reinforcement Learning Nano Degree(drlnd) from Udacity.
 In this project you needed to train an Agent to collect yellow bananas in an Unity Environment whilst avoiding blue bananas.
 The agent sees an 37 dimensional state and an action space of 4.
 
+The basic structure of this project was taken from the examples of the Udacity DRLND and changed slightly to fit the new criteria.
+
 # Setup
 
 To start, you need Python 3.6, PyTorch, Numpy, Matplotlib, and the Unity ML-Agents Toolkit.
